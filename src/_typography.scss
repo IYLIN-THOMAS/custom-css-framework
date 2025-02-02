@@ -1,0 +1,39 @@
+@use "sass:map";
+@use "goodie-font-body";
+@use "goodie-font-heading";
+@use "variables";
+
+// Tyopgraphy for body text
+body {
+  font-family: variables.$goodie-font-body;
+  font-weight: map.get(variables.$font-weights, "regular");
+  font-size: map.get(variables.$font-sizes, "small");
+}
+
+// Set all headings to use the heading font
+h1,
+h2,
+h3,
+h4 {
+  font-family: variables.$goodie-font-heading;
+}
+
+h1 {
+  font-size: map.get(variables.$font-sizes, "2xl");
+  font-weight: map.get(variables.$font-weights, "semibold");
+}
+
+h2 {
+  font-size: map.get(variables.$font-sizes, "xl");
+  font-weight: map.get(variables.$font-weights, "semibold");
+}
+
+h3 {
+  font-size: map.get(variables.$font-sizes, "large");
+  font-weight: map.get(variables.$font-weights, "semibold");
+}
+
+h4 {
+  font-size: map.get(variables.$font-sizes, "medium");
+  font-weight: map.get(variables.$font-weights, "semibold");
+}
