@@ -1,0 +1,61 @@
+// Typography
+$goodie-font-body: "Poppins", serif;
+$goodie-font-heading: "Judson", serif;
+
+// Base style
+$list-ul: circle;
+$list-ol: decimal;
+$border-radius: 4px;
+$text-align: center;
+
+// * Utility classes *
+
+// Color
+$theme: (
+  "primary": #3f00ff,
+  "secondary": #808080,
+  "success": #009e60,
+  "info": #87ceeb,
+  "warning": #ff5733,
+  "danger": #c41e3a,
+  "dark": #ffffff,
+  "light": #000000,
+);
+
+// Font Weights
+$font-weights: (
+  "extralight": 200,
+  "light": 300,
+  "regular": 400,
+  "medium": 500,
+  "semibold": 600,
+  "bold": 700,
+);
+
+// Font Sizes
+$font-sizes: (
+  "xs": 12px,
+  "small": 16px,
+  "medium": 22px,
+  "large": 30px,
+  "xl": 45px,
+  "2xl": 60px,
+);
+
+// Rounded radius
+$rounded: (
+  "sm": 6px,
+  "md": 12px,
+  "lg": 24px,
+  "full": 50%,
+);
+
+// Margin & Padding
+$spacing: (
+  "0": 0px,
+  "1": 2px,
+  "2": 4px,
+  "3": 8px,
+  "4": 16px,
+  "5": 32px,
+);

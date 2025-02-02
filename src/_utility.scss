@@ -1,0 +1,156 @@
+@use "sass:map";
+@use "variables";
+
+// Rounded (border-radius)
+.rounded-sm {
+  border-radius: map.get(variables.$rounded, "sm");
+}
+
+.rounded-md {
+  border-radius: map.get(variables.$rounded, "md");
+}
+
+.rounded-lg {
+  border-radius: map.get(variables.$rounded, "lg");
+}
+
+.rounded-full {
+  border-radius: map.get(variables.$rounded, "full");
+}
+
+// Font weight
+
+.font-extralight {
+  font-weight: map.get(variables.$font-weights, "extralight");
+}
+
+.font-light {
+  font-weight: map.get(variables.$font-weights, "light");
+}
+
+.font-regular {
+  font-weight: map.get(variables.$font-weights, "regular");
+}
+
+.font-medium {
+  font-weight: map.get(variables.$font-weights, "medium");
+}
+
+.font-semibold {
+  font-weight: map.get(variables.$font-weights, "semibold");
+}
+
+.font-bold {
+  font-weight: map.get(variables.$font-weights, "bold");
+}
+
+// Text color
+.font-primary {
+  color: #3f00ff;
+}
+.font-secondary {
+  color: #808080;
+}
+.font-success {
+  color: #009e60;
+}
+.font-info {
+  color: #87ceeb;
+}
+.font-warning {
+  color: #ff5733;
+}
+.font-danger {
+  color: #c41e3a;
+}
+.font-dark {
+  color: #ffffff;
+}
+.text-light {
+  color: #000000;
+}
+
+// Background color
+.bg-primary {
+  background-color: #3f00ff;
+}
+.bg-secondary {
+  background-color: #808080;
+}
+.bg-success {
+  background-color: #009e60;
+}
+.bg-info {
+  background-color: #87ceeb;
+}
+.bg-warning {
+  background-color: #ff5733;
+}
+.bg-danger {
+  background-color: #c41e3a;
+}
+.bg-dark {
+  background-color: #ffffff;
+}
+.bg-light {
+  background-color: #000000;
+}
+
+// Font size
+.font-xs {
+  font-size: map.get(variables.$font-sizes, "xs");
+}
+.font-small {
+  font-size: map.get(variables.$font-sizes, "small");
+}
+.font-medium {
+  font-size: map.get(variables.$font-sizes, "medium");
+}
+.font-large {
+  font-size: map.get(variables.$font-sizes, "large");
+}
+.font-xl {
+  font-size: map.get(variables.$font-sizes, "xl");
+}
+.font-2xl {
+  font-size: map.get(variables.$font-sizes, "2xl");
+}
+
+// Margin & Padding
+.m-0 {
+  margin: map.get(variables.$spacing, "0");
+}
+.m-1 {
+  margin: map.get(variables.$spacing, "1");
+}
+.m-2 {
+  margin: map.get(variables.$spacing, "2");
+}
+.m-3 {
+  margin: map.get(variables.$spacing, "3");
+}
+.m-4 {
+  margin: map.get(variables.$spacing, "4");
+}
+.m-5 {
+  margin: map.get(variables.$spacing, "5");
+}
+
+.p-0 {
+  margin: map.get(variables.$spacing, "0");
+}
+.p-1 {
+  margin: map.get(variables.$spacing, "1");
+}
+.p-2 {
+  margin: map.get(variables.$spacing, "2");
+}
+.p-3 {
+  margin: map.get(variables.$spacing, "3");
+}
+.p-4 {
+  margin: map.get(variables.$spacing, "4");
+}
+.p-5 {
+  margin: map.get(variables.$spacing, "5");
+}
