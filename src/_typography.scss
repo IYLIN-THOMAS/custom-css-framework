@@ -14,7 +14,9 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
   font-family: variables.$goodie-font-heading;
 }
 
@@ -35,5 +37,15 @@ h3 {
 
 h4 {
   font-size: map.get(variables.$font-sizes, "medium");
+  font-weight: map.get(variables.$font-weights, "semibold");
+}
+
+h5 {
+  font-size: map.get(variables.$font-sizes, "small");
+  font-weight: map.get(variables.$font-weights, "semibold");
+}
+
+h6 {
+  font-size: map.get(variables.$font-sizes, "xs");
   font-weight: map.get(variables.$font-weights, "semibold");
 }
