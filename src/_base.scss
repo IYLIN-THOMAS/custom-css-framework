@@ -26,6 +26,20 @@ ol {
   list-style-type: variables.$list-ol;
 }
 
+dl {
+  margin: map.get(variables.$spacing, "2");
+  padding: map.get(variables.$spacing, "0");
+}
+
+dt {
+  font-weight: map.get(variables.$font-weights, "semibold");
+  margin: map.get(variables.$spacing, "1");
+}
+
+dd {
+  margin: map.get(variables.$spacing, "1");
+}
+
 // Button
 @mixin goodie-btn(
   $btn-bg-color: map.get(variables.$theme, "primary"),
@@ -105,8 +119,17 @@ form {
 }
 
 input[type="text"],
-input[type="email"] {
+input[type="email"],
+input[type="password"],
+input[type="number"] {
   border: 1px solid map.get(variables.$theme, "light");
   padding: 10px;
+  border-radius: variables.$border-radius;
+}
+
+#dropdown {
+  border: 1px solid map.get(variables.$theme, "light");
+  padding: 10px;
+  cursor: pointer;
   border-radius: variables.$border-radius;
 }

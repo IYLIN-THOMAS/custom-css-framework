@@ -106,7 +106,9 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
   font-family: "Judson", serif;
 }
 
@@ -130,6 +132,16 @@ h4 {
   font-weight: 600;
 }
 
+h5 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+h6 {
+  font-size: 12px;
+  font-weight: 600;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -150,6 +162,20 @@ ol {
   margin: 0 0 0px 30px;
   padding: 5px 0;
   list-style-type: decimal;
+}
+
+dl {
+  margin: 4px;
+  padding: 0px;
+}
+
+dt {
+  font-weight: 600;
+  margin: 2px;
+}
+
+dd {
+  margin: 2px;
 }
 
 button,
@@ -267,9 +293,18 @@ form {
 }
 
 input[type=text],
-input[type=email] {
+input[type=email],
+input[type=password],
+input[type=number] {
   border: 1px solid #000000;
   padding: 10px;
+  border-radius: 4px;
+}
+
+#dropdown {
+  border: 1px solid #000000;
+  padding: 10px;
+  cursor: pointer;
   border-radius: 4px;
 }
 
