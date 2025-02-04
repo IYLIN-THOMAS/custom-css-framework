@@ -308,6 +308,47 @@ input[type=number] {
   border-radius: 4px;
 }
 
+.table {
+  width: auto;
+  max-width: 100%;
+}
+.table th,
+.table td {
+  border: 2px solid #808080;
+  padding: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.table thead {
+  background-color: #3f00ff;
+  color: #ffffff;
+}
+.table tfoot {
+  background-color: #808080;
+  color: #000000;
+}
+.table tfoot td {
+  font-weight: 700;
+  text-align: center;
+}
+.table select {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  width: 100%;
+}
+.table select:focus {
+  outline: none;
+  border-color: #3f00ff;
+  box-shadow: 0 0 0 2px rgba(63, 0, 255, 0.2);
+}
+
 .rounded-sm {
   border-radius: 6px;
 }
@@ -482,6 +523,66 @@ input[type=number] {
 
 .p-5 {
   margin: 32px;
+}
+
+.border-sm {
+  border-width: 1px;
+}
+
+.border-md {
+  border-width: 2px;
+}
+
+.border-lg {
+  border-width: 3px;
+}
+
+.border-primary {
+  border-color: #3f00ff;
+}
+
+.border-secondary {
+  border-color: #808080;
+}
+
+.border-success {
+  border-color: #009e60;
+}
+
+.border-info {
+  border-color: #87ceeb;
+}
+
+.border-warning {
+  border-color: #ff5733;
+}
+
+.border-danger {
+  border-color: #c41e3a;
+}
+
+.border-dark {
+  border-color: #ffffff;
+}
+
+.border-light {
+  border-color: #000000;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-dashed {
+  border-style: dashed;
+}
+
+.border-dotted {
+  border-style: dotted;
+}
+
+.border-none {
+  border: none;
 }
 
 /*# sourceMappingURL=goodie.css.map */

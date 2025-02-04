@@ -19,7 +19,6 @@
 }
 
 // Font weight
-
 .font-extralight {
   font-weight: map.get(variables.$font-weights, "extralight");
 }
@@ -153,4 +152,66 @@
 }
 .p-5 {
   margin: map.get(variables.$spacing, "5");
+}
+
+// Border utilities
+.border-sm {
+  border-width: 1px;
+}
+
+.border-md {
+  border-width: 2px;
+}
+
+.border-lg {
+  border-width: 3px;
+}
+
+.border-primary {
+  border-color: map.get(variables.$theme, "primary");
+}
+
+.border-secondary {
+  border-color: map.get(variables.$theme, "secondary");
+}
+
+.border-success {
+  border-color: map.get(variables.$theme, "success");
+}
+
+.border-info {
+  border-color: map.get(variables.$theme, "info");
+}
+
+.border-warning {
+  border-color: map.get(variables.$theme, "warning");
+}
+
+.border-danger {
+  border-color: map.get(variables.$theme, "danger");
+}
+
+.border-dark {
+  border-color: map.get(variables.$theme, "dark");
+}
+
+.border-light {
+  border-color: map.get(variables.$theme, "light");
+}
+
+// Border styles
+.border-solid {
+  border-style: solid;
+}
+
+.border-dashed {
+  border-style: dashed;
+}
+
+.border-dotted {
+  border-style: dotted;
+}
+
+.border-none {
+  border: none;
 }
