@@ -133,3 +133,58 @@ input[type="number"] {
   cursor: pointer;
   border-radius: variables.$border-radius;
 }
+
+//Table
+.table {
+  width: auto;
+  max-width: 100%;
+
+  th,
+  td {
+    border: map.get(variables.$spacing, "1") solid map.get(variables.$theme, "secondary");
+    padding: map.get(variables.$spacing, "3");
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  thead {
+    background-color: map.get(variables.$theme, "primary");
+    color: map.get(variables.$theme, "dark");
+  }
+
+  tfoot {
+    background-color: map.get(variables.$theme, "secondary");
+    color: map.get(variables.$theme, "light");
+
+    td {
+      font-weight: map.get(variables.$font-weights, "bold");
+      text-align: center;
+    }
+  }
+  select {
+    appearance: none; 
+    -webkit-appearance: none;
+    background-color: transparent; 
+    border: none;
+    padding: 0; 
+    font-family: inherit; 
+    font-size: inherit; 
+    cursor: pointer; 
+    width: 100%; 
+
+    &:focus {
+      outline: none;
+      border-color: map.get(variables.$theme, "primary");
+      box-shadow: 0 0 0 2px rgba(map.get(variables.$theme, "primary"), 0.2);
+    }
+  }
+}
+
+
+
+
+
+
+
+
