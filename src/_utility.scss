@@ -215,3 +215,16 @@
 .border-none {
   border: none;
 }
+
+//shadows
+.shadow-small {
+  text-shadow: map-get(variables.$shadow, "small");
+}
+
+.shadow-regular {
+  text-shadow: map-get(variables.$shadow, "regular");
+}
+
+.shadow-large {
+  text-shadow: map-get(variables.$shadow, "large");
+}

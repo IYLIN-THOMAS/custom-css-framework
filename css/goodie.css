@@ -586,3 +586,26 @@ input[type=number] {
 }
 
 /*# sourceMappingURL=goodie.css.map */
+
+
+.box {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  border-radius: 10px;
+}
+.box-small {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.box-medium {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.box-large {
+  box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.4);
+}
